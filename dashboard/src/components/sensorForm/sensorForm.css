@@ -1,0 +1,38 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+  }
+  .sensor-form-title {
+    color: gray;
+    margin-bottom: 10px;
+  }
+
+  input, label, button {
+    width : 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+  }
+
+  label {
+    color: gray;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    height: 60%;
+  }
+  
+  button {
+    margin-top: 0px;
+    height: 3.5%;
+  }
+  
+  input[type="text"],
+  input[type="description"] {
+  margin-bottom: 10px;
+  color: gray; /* Agregamos el color gris a los input text */
+}
